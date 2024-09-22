@@ -88,8 +88,14 @@ Version: 1.0.0
 /*------------------- 1.2. Function -------------------*/
 /*------------------- 1.3. Variable-------------------*/
 :root {
+<<<<<<< HEAD
   --theme-color: #1C2D37;
   --theme-color2: #EED26E;
+=======
+  --theme-color: #efe6dd;
+  --theme-color2: #725c5b;
+  --btn-bg-color: #725c5b8b;
+>>>>>>> b6c1c5d (amal)
   --title-color: #0D0D0C;
   --title-dark: #364440;
   --body-color: #6E7070;
