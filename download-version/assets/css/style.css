@@ -22819,7 +22819,7 @@ span.select2-selection.select2-selection--single:focus {
 
 .space,
 .space-bottom {
-  /* padding-bottom: var(--section-space); */
+  padding-bottom: var(--section-space);
 }
 
 .space-extra,
