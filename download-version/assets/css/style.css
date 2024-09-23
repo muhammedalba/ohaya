@@ -95,7 +95,8 @@ Version: 1.0.0
   --title-color: #0D0D0C;
   --title-dark: #364440;
   --body-color: #6E7070;
-  --smoke-color: #C0CDD1;
+  --smoke-color: #d9b59f;
+  /* --smoke-color: #C0CDD1; */
   --smoke-color2: #666666;
   --black-color: #000000;
   --black-color2: #1B1B1B;
@@ -8606,7 +8607,7 @@ ol.wp-block-rss {
 }
 
 .footer-layout1 .copyright-wrap {
-  background: var(--light-color);
+  /* background: var(--light-color); */
   padding: 22px 0;
 }
 
