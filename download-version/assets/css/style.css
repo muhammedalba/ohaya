@@ -1212,6 +1212,7 @@ ul.wp-block-rss a {
   .blog-author .media-body {
     padding: 35px 20px 30px 20px;
   }
+ 
 }
 
 /*=================================
@@ -2564,6 +2565,7 @@ textarea.is-invalid {
 }
 
 .th-preloader .animation-preloader .txt-loading {
+  text-transform: uppercase;
   font-family: var(--title-font);
   font-size: 72px;
   line-height: 82px;
@@ -3892,7 +3894,7 @@ hr.title-line {
   height: var(--icon-size, 32px);
   line-height: var(--icon-size, 32px);
   background-color: transparent;
-  color: var(--theme-color);
+  color: var(--theme-color2);
   font-size: 14px;
   text-align: center;
   border-radius: 50%;
@@ -3931,13 +3933,13 @@ hr.title-line {
 
 .th-social.style2 a:hover {
   background: transparent;
-  color: var(--theme-color2);
+  color: var(--theme-color);
 }
 
 .th-social.style3 a {
   --icon-size: 40px;
   line-height: 40px;
-  color: var(--theme-color);
+  color: var(--theme-color2);
   font-size: 16px;
 }
 
@@ -7188,7 +7190,7 @@ ol.wp-block-rss {
 }
 
 .footer-widget .widget_title {
-  max-width: 270px;
+  /* max-width: 270px; */
   color: var(--theme-color2);
   font-weight: 600;
   font-size: 24px;
@@ -7237,9 +7239,10 @@ ol.wp-block-rss {
 }
 
 .footer-widget.widget_meta a:before, .footer-widget.widget_pages a:before, .footer-widget.widget_archive a:before, .footer-widget.widget_categories a:before, .footer-widget.widget_nav_menu a:before {
-  content: "\f105";
+  content: "\f104";
   font-weight: 400;
-  left: 0;
+  right: -1.2rem;
+
   top: 0;
   opacity: 1;
   -webkit-transform: translateY(0);
@@ -7258,7 +7261,7 @@ ol.wp-block-rss {
 
 .footer-widget.widget_meta a:hover:before, .footer-widget.widget_pages a:hover:before, .footer-widget.widget_archive a:hover:before, .footer-widget.widget_categories a:hover:before, .footer-widget.widget_nav_menu a:hover:before {
   color: var(--theme-color2);
-  left: 5px;
+  right: -0.8rem;
 }
 
 .footer-widget.widget_meta li > span, .footer-widget.widget_pages li > span, .footer-widget.widget_archive li > span, .footer-widget.widget_categories li > span, .footer-widget.widget_nav_menu li > span {
@@ -7319,12 +7322,12 @@ ol.wp-block-rss {
 }
 
 .th-widget-about {
-  max-width: 354px;
+  /* max-width: 354px; */
   margin-bottom: -0.5em;
 }
 
 .th-widget-about .about-logo {
-  margin-bottom: 44px;
+  /* margin-bottom: 44px; */
 }
 
 .th-widget-about .about-text {
@@ -7472,7 +7475,7 @@ ol.wp-block-rss {
 }
 
 .th-widget-contact {
-  max-width: 260px;
+
   margin-bottom: -0.4em;
 }
 
@@ -7484,6 +7487,7 @@ ol.wp-block-rss {
   display: -ms-flexbox;
   display: flex;
   gap: 16px;
+  justify-content: flex-end;
 }
 
 .th-widget-contact .info-box_text .icon {
@@ -7791,6 +7795,7 @@ ol.wp-block-rss {
   padding: 0;
   font-size: 24px;
   position: relative;
+
 }
 
 .simple-icon:has(.badge) {
@@ -7834,7 +7839,7 @@ ol.wp-block-rss {
   display: block;
   height: 1px;
   width: 32px;
-  background: var(--white-color);
+  background: var(--theme-color2);
   margin: auto;
   -webkit-transition: 0.4s;
   transition: 0.4s;
@@ -8359,8 +8364,8 @@ ol.wp-block-rss {
 }
 
 .widget-area {
-  padding-top: 80px;
-  padding-bottom: 30px;
+  padding-top: 40px;
+  padding-bottom: 10px;
 }
 
 .sticky-footer {
@@ -8568,7 +8573,7 @@ ol.wp-block-rss {
 }
 
 .footer-layout1 .footer-widget .widget_title {
-  color: var(--theme-color);
+  color: var(--theme-color2);
 }
 
 .footer-layout1 .th-widget-contact .info-box_text .icon img {
@@ -11208,6 +11213,7 @@ ul.comment-list .th-comment-item:first-child > .th-post-comment {
   border: none;
   background-color: transparent;
   margin-bottom: 40px;
+  text-align: end;
 }
 
 .sidemenu-wrapper .recent-post .post-title,
@@ -22813,7 +22819,7 @@ span.select2-selection.select2-selection--single:focus {
 
 .space,
 .space-bottom {
-  padding-bottom: var(--section-space);
+  /* padding-bottom: var(--section-space); */
 }
 
 .space-extra,
@@ -22844,7 +22850,7 @@ span.select2-selection.select2-selection--single:focus {
   }
   .space,
   .space-bottom {
-    padding-bottom: var(--section-space-mobile);
+    /* padding-bottom: var(--section-space-mobile); */
   }
   .space-extra,
   .space-extra-top {
